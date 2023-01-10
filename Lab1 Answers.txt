@@ -2,6 +2,40 @@ Answer1) https://github.com/sihaaan
 Answer2) 2.28.1
 Answer3) 2.28.0
 Answer4) The virtual environment had a different version to the local version.
-Answer5) we get a 401 status code. We need to visit http://www.google.com/ for a 201 status code
+Answer5) we get a 301 status code. We need to visit http://www.google.com/ for a 200 status code
+Answer6)we get a 301 status code. its the same as returned by curl -i. No status code or header returned.
+Answer7)< <P>No form fields.
+20a20,21
+> <DT>X: <i>&lt;type 'instance'&gt;</i>
+> <DD>MiniFieldStorage('X', 'Y')
+25a27,28
+> <DT> CONTENT_LENGTH <DD> 3
+> <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+37,38c40,41
+< <DT> REMOTE_PORT <DD> 58555
+< <DT> REQUEST_METHOD <DD> GET
+---
+> <DT> REMOTE_PORT <DD> 58556
+> <DT> REQUEST_METHOD <DD> POST
+52c55
+< <DT> UNIQUE_ID <DD> Y7yy89U315wcCXmhJvL84AAAAAA
+---
+> <DT> UNIQUE_ID <DD> Y7yy-UaBGKxPBLXz5YpuaQAAAAE
+127a131,132
+> <DT> CONTENT_LENGTH <DD> 3
+> <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+139,140c144,145
+< <DT> REMOTE_PORT <DD> 58555
+< <DT> REQUEST_METHOD <DD> GET
+---
+> <DT> REMOTE_PORT <DD> 58556
+> <DT> REQUEST_METHOD <DD> POST
+154c159
+< <DT> UNIQUE_ID <DD> Y7yy89U315wcCXmhJvL84AAAAAA
+---
+> <DT> UNIQUE_ID <DD> Y7yy-UaBGKxPBLXz5YpuaQAAAAE
 
+POST is used to sending requests to the website.
+
+Answer8) https://raw.githubusercontent.com/sihaaan/CMPUT404-lab1/master/requestsScript.py
  
