@@ -1,0 +1,7 @@
+Answer1) https://github.com/sihaaan
+Answer2) 2.28.1
+Answer3) 2.28.0
+Answer4) The virtual environment had a different version to the local version.
+Answer5) we get a 401 status code. We need to visit http://www.google.com/ for a 201 status code
+
+ 
